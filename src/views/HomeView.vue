@@ -33,10 +33,9 @@
               </div>
             </v-col>
             <v-col cols="12" sm="6">
-              <h5 class="mt-16">About me</h5>
+              <h3 class="mt-16" id="about">About me</h3>
               <div style="width: 120px">
                 <v-slider v-model="slider2" color="light-blue" label="track-color">
-
                 </v-slider>
               </div>
               <h4 class="mt-n4">I am a Creative Web Designer</h4>
@@ -96,6 +95,7 @@
           <v-btn variant="tonal">Illustration</v-btn>
         </div>
       </v-col>
+      <h1 class="text-center mt-16 pt-5 my-5 py-5" id="projects">Projects</h1>
       <v-col cols="12" class="imgHover">
         <v-row class="fill-height" align="center" justify="center">
           <template v-for="(item, i) in items" :key="i">
@@ -116,7 +116,7 @@
       </v-col>
       <v-col cols="12" id="page">
         <div class="pre">
-          <h2 class="text-center">Testimonials</h2>
+          <h2 class="text-center" id="testimonials">Testimonials</h2>
           <v-row>
             <v-col cols="12" sm="4">
               <v-card class="mw-auto" max-width="344" height="">
@@ -144,8 +144,8 @@
             </v-col>
             <v-col cols="12" sm="4">
               <v-card class="mw-auto" max-width="344" height="">
-                <v-img src="" height="200px" cover></v-img>
-                <v-card-title>Sabelo Mdashe</v-card-title>
+                <v-img src="https://i.postimg.cc/ZRCcqP57/undecided-removebg-preview.png" height="200px" cover></v-img>
+                <v-card-title>Liam Engel</v-card-title>
                 <v-card-subtitle>
                   IT Specialist
                 </v-card-subtitle>
@@ -178,13 +178,13 @@
         <div class="child">
           <h1>Contact info.</h1>
           <v-btn icon="fas fa-map-marker" class="mt-10"  variant="outlined"></v-btn><br />
-          <span class="text-caption">Your street SYO, Your Area Dream</span> <br />
+          <span class="text-caption">Cape Town, South Africa</span> <br />
           <v-btn ico="fas fa-phone-alt" class="mt-10" variant="outlined"></v-btn><br />
-          <span class="text-caption">084085 -2051</span><br />
-          <span class="text-caption">084085 -2051</span><br />
+          <span class="text-caption">0732317742</span><br />
+          <span class="text-caption">0732317742</span><br />
           <v-btn ico="fas fa-envelope" class="mt-10" variant="outlined"></v-btn><br />
-          <span class="text-caption">slipani@gmail.com</span><br />
-          <span class="text-caption">slipani@gmail.com</span><br />
+          <span class="text-caption">slipani16@gmail.com</span><br />
+          <span class="text-caption">siliziwepani@gmail.com</span><br />
         </div>
       </v-col>
       <v-col cols="12" sm="8">
@@ -226,19 +226,19 @@ export default defineComponent({
 
 items: [
   {
-    img: "",
+    img: "https://i.postimg.cc/j5MyyDLW/rainbow-removebg-preview.png",
   },
   {
-    img: "",
+    img: "https://i.postimg.cc/6547q20j/Screenshot-2022-07-21-131859.png",
   },
   {
-    img: "",
+    img: "https://i.postimg.cc/d1W7kGpX/calculator-removebg-preview.png",
   },
   {
-    img: "",
+    img: "https://i.postimg.cc/MTGHSvHY/Screenshot-2022-07-21-161528.png",
   },
   {
-    img: "",
+    img: "https://i.postimg.cc/Gm1ppM9t/Screenshot-2022-07-21-161922.png",
   },
   {
     img: "",
@@ -277,10 +277,9 @@ items: [
     width: 50%;
     background-color: black;
     box-shadow: 10px 10px 10px rgb(19, 19, 21);
-
     transform: skew(0deg, 6deg);
   }
-  .head:after{
+  .head::after{
     content: " ";
     position: absolute;
     top: 0;
@@ -316,6 +315,7 @@ items: [
   }
   .imgHover{
     padding: 0 200px;
+    
   }
   .pre{
     width: 100%;
