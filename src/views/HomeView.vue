@@ -318,19 +318,19 @@
                   IT Specialist
                 </v-card-subtitle>
                 <v-card-text>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis, quaerat, nesciunt deserunt eum distinctio maxime voluptates quibusdam dolores eligendi, consectetur sed obcaecati ipsa at ea quia doloremque repellendus temporibus quas?
+                  Siliziwe is a hard worker and he doesn't disappoint.
                 </v-card-text>
               </v-card>
             </v-col>
             <v-col cols="12" sm="4">
               <v-card data-aos="zoom-out" class="mw-auto" max-width="344" height="">
-                <v-img src="" height="200px" cover></v-img>
-                <v-card-title>Lunga Booi</v-card-title>
+                <v-img src="https://i.postimg.cc/6QQ41X9J/joel2.jpg" height="200px" cover></v-img>
+                <v-card-title>Joel Mukanya</v-card-title>
                 <v-card-subtitle>
                   IT Specialist
                 </v-card-subtitle>
                 <v-card-text>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis, quaerat, nesciunt deserunt eum distinctio maxime voluptates quibusdam dolores eligendi, consectetur sed obcaecati ipsa at ea quia doloremque repellendus temporibus quas?
+                  Siliziwe seems to show a lot of promise as a student. I enjoy seeing him work hard on his classwork.
                 </v-card-text>
               </v-card>
             </v-col>
@@ -342,7 +342,7 @@
                   IT Specialist
                 </v-card-subtitle>
                 <v-card-text>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis, quaerat, nesciunt deserunt eum distinctio maxime voluptates quibusdam dolores eligendi, consectetur sed obcaecati ipsa at ea quia doloremque repellendus temporibus quas?
+                  Siliziwe is an open-minded person and I work well with him.
                 </v-card-text>
               </v-card>
             </v-col>
