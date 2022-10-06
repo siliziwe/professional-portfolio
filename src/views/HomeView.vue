@@ -9,7 +9,7 @@
               <h1 class="text-grey">Hello</h1>
               <h1 class="text-white">I'm Siliziwe Pani</h1>
               <span class="text-grey">Front-end Developer</span><br />
-              <v-btn tile dark class="text-light-blue mt-8" variant="outlined">Contact me</v-btn>
+              <v-btn href="contact" tile dark class="text-light-blue mt-8" variant="outlined">Contact me</v-btn>
             </div>
           </v-col>
           <v-col cols="2">
@@ -35,25 +35,49 @@
             <v-col cols="12" sm="6">
               <h3 class="mt-16" id="about">About me</h3>
               <div style="width: 120px">
-                <v-slider v-model="slider2" color="light-blue" label="track-color">
+                <v-slider v-model="slider2" color="black" label="track-color">
                 </v-slider>
               </div>
               <h4 class="mt-n4">I am a Creative Web Designer</h4>
-              <h4>And Developer</h4>
               <p class="text-grey">I am a person who values genuine expression and honesty over blindly following the crowd. I enjoy listening to music and spending some time alone. I hate a lot of things. I can charm dogs. I have no limitations. I never make the same mistake twice.</p>
             <br />
               <p class="text-grey"> I make it five or six times, just to be sure. Being attractive is just not something I have any control over. I enjoy coding eventhough it's not something I've been doing for a long time.</p>
               <v-btn tile dark color="light-blue" class="mt-4">
                 Download Resume
-              </v-btn>
+                 </v-btn>
             </v-col>
           </v-row>
         </div>
       </v-col>
+      <div class="row justify-content-center text-center">
+        <h3>Get to know me</h3>
+      <div class="col-md-4 mb-4 mb-md-5">
+      <div class="card">
+    <h3 class="text-center fst-italic shadow-lg bg-light">Hobbies</h3>
+      <p class="text-center">I like playing soccer and playing mobile games. I also like spend most my time listening music. I also like drawing and also making animations using programs like FlipaClip and Stick Nodes.</p>
+    </div>
+  </div>
+  <div class="col-md-4 mb-4 mb-md-0">
+    <div class="card mask-custom-2">
+    <h3 class="text-center fst-italic shadow-lg bg-light">Music</h3>
+      <p>I listen to Hip Hop and R&B but mostly Hip Hop. I like mostly rap music and I listen to Eminem mostly. I also like J Cole, Lil Wayne, Cordae, Joyner Lucas, Jack Halow, Royce and King Von.</p>
+    </div>
+  </div>
+  <div class="col-md-4 mb-4 mb-md-0">
+    <div class="card mask-custom-2">
+    <h3 class="text-center fst-italic shadow-lg bg-light">Favourite Quotes</h3>
+      <p>
+      <ul><li>"Maintain your status as a man of words while retaining a flexible approach to your actions".</li>
+      <li>"Every guy is already a king; it’s simply a matter of finding out the nature of your kingdom.".</li>
+      </ul>
+      </p>
+    </div>
+  </div>
+</div>
       <div class="text-center mt-4">
         <h2>What I do</h2>
         <div style="width:120px; margin: 0 auto">
-          <v-slider v-model="slider2" color="blue" label="track-color"></v-slider>
+          <v-slider v-model="slider2" color="black" label="track-color"></v-slider>
         </div>
       </div>
       <v-col cols="12" class="padd" id="portfolio">
@@ -287,7 +311,7 @@ items: [
     height: 100%;
     width: 50%;
     background-color: black;
-    box-shadow: 10px 10px 10px 5px rgb(19, 19, 21);
+    box-shadow: 10px 10px 10px rgb(19, 19, 21);
     transform: skew(0deg, -6deg);
   }
   .egg{
