@@ -4,6 +4,8 @@ import router from './router'
 import store from './store'
 import vuetify from './plugins/vuetify'
 import { loadFonts } from './plugins/webfontloader'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 import 'bootstrap-vue/dist/bootstrap-vue'
 import 'bootstrap-vue'
@@ -18,4 +20,6 @@ createApp(App)
   .use(router)
   .use(store)
   .use(vuetify)
+  .use(AOS)
   .mount('#app')
+  

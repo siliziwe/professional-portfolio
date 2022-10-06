@@ -9,7 +9,7 @@
               <h1 class="text-grey">Hello</h1>
               <h1 class="text-white">I'm Siliziwe Pani</h1>
               <span class="text-grey">Front-end Developer</span><br />
-              <v-btn href="contact" tile dark class="text-light-blue mt-8" variant="outlined">Contact me</v-btn>
+              <v-btn tile dark class="text-light-blue mt-8" variant="outlined">Scroll down</v-btn>
             </div>
           </v-col>
           <v-col cols="2">
@@ -28,11 +28,12 @@
         <div>
           <v-row>
             <v-col cols="12" sm="6">
-              <div class="egg">
+              <div class="egg" data-aos="flip-right">
                 <v-img src="https://i.postimg.cc/SQZkWtXj/image.png" max-height="300"></v-img>
               </div>
             </v-col>
             <v-col cols="12" sm="6">
+              <div data-aos="flip-left">
               <h3 class="mt-16" id="about">About me</h3>
               <div style="width: 120px">
                 <v-slider v-model="slider2" color="black" label="track-color">
@@ -45,11 +46,12 @@
               <v-btn tile dark color="light-blue" class="mt-4">
                 Download Resume
                  </v-btn>
+                </div>
             </v-col>
           </v-row>
         </div>
       </v-col>
-      <div class="row justify-content-center text-center">
+      <div data-aos="zoom-out" class="row justify-content-center text-center">
         <h3>Get to know me</h3>
       <div class="col-md-4 mb-4 mb-md-5">
       <div class="card">
@@ -74,14 +76,16 @@
     </div>
   </div>
 </div>
-      <div class="text-center mt-4">
+      <div  data-aos="fade-up"
+     data-aos-anchor-placement="center-bottom" class="text-center mt-4">
         <h2>What I do</h2>
         <div style="width:120px; margin: 0 auto">
           <v-slider v-model="slider2" color="black" label="track-color"></v-slider>
         </div>
       </div>
       <v-col cols="12" class="padd" id="portfolio">
-        <div class="first" id="project">
+        <div  data-aos="fade-up"
+     data-aos-anchor-placement="center-bottom" class="first" id="project">
           <v-row>
             <v-col cols="12">
               <div class="child">
@@ -107,7 +111,6 @@
               </div> -->
             </v-col>
           </v-row>
-          <v-divider></v-divider>
         </div>
       </v-col>
       <v-col cols="12" sm="12" id="services">
@@ -119,6 +122,171 @@
           <v-btn variant="tonal">Illustration</v-btn>
         </div>
       </v-col>
+      <v-divider></v-divider>
+
+      <div data-aos="flip-up">
+            <h1 class="text-dark text-center fst-italic shadow-lg bg-light w-100" id="h1">Technical Skills</h1>
+            <div class="row">
+                <div class="col-md-4 text-dark">
+                    <p class="text">Html</p>
+                    <div class="progress">
+                        <div class="progress-bar bg-black" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:100%">
+                            <span class="sr-only">100% Complete</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 text-dark">
+                    <p class="text">CSS</p>
+                    <div class="progress">
+                        <div class="progress-bar bg-black" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:98%">
+                            <span class="sr-only">98% Complete</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 text-dark">
+                    <p class="text">Bootstrap</p>
+                    <div class="progress">
+                        <div class="progress-bar bg-black" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:92%">
+                            <span class="sr-only">92% Complete</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 text-dark">
+                    <p class="text">SQL</p>
+                    <div class="progress">
+                        <div class="progress-bar bg-black" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:90%">
+                            <span class="sr-only">90% Complete</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 text-dark">
+                    <p class="text">Vue js</p>
+                    <div class="progress">
+                        <div class="progress-bar bg-black" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:20%">
+                            <span class="sr-only">20% Complete</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 text-dark">
+                    <p class="text">Javascript</p>
+                    <div class="progress">
+                        <div class="progress-bar bg-black" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:60%">
+                            <span class="sr-only">60% Complete</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 text-dark">
+                    <p class="text">Nodejs</p>
+                    <div class="progress">
+                        <div class="progress-bar bg-black" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:0%">
+                            <span class="sr-only">0% Complete</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 text-dark">
+                    <p class="text">React js</p>
+                    <div class="progress">
+                        <div class="progress-bar bg-black" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:0%">
+                            <span class="sr-only">0% Complete</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 text-dark">
+                    <p class="text">Python</p>
+                    <div class="progress">
+                        <div class="progress-bar bg-black" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:0%">
+                            <span class="sr-only">0% Complete</span>
+                        </div>
+                    </div>
+                </div>
+                <br><br>
+                <div class="my-5">
+                    <h1 class="text-center text-dark fst-italic shadow-lg bg-light" id="h1"><span>Soft</span> <span>Skills</span></h1>
+                    <div class="mask d-flex align-items-center h-100">
+                        <div class="container" id="con">
+                        <div class="row justify-content-center text-center">
+                            <div class="col-md-4 mb-4 mb-md-0">
+                            <div class="card mask-custom-1 my-5 h-25 text-white">
+                                <div class="card-body mb-2">
+                                <h5 class="mb-1 text-dark" data-mdb-toggle="animation" data-mdb-animation-start="onLoad"
+                                    data-mdb-animation="slide-in-left" data-mdb-animation-duration="1000"
+                                    data-mdb-animation-delay="300">
+                                    Problem Solver</h5>
+                                <ul class="list-unstyled mb-0" data-mdb-toggle="animation" data-mdb-animation-start="onLoad"
+                                    data-mdb-animation="slide-in-left" data-mdb-animation-duration="1000"
+                                    data-mdb-animation-delay="500">
+                                    <a href="#!" class="px-1">
+                                    <i class="fab fa-github text-white"></i>
+                                    </a>
+                                    <a href="#!" class="px-1">
+                                    <i class="fab fa-twitter text-white"></i>
+                                    </a>
+                                    <a href="#!" class="px-1">
+                                    <i class="fab fa-linkedin-in text-white"></i>
+                                    </a>
+                                </ul>
+                                </div>
+                            </div>
+                            </div>
+                            <div class="col-md-4 mb-4 mb-md-0">
+                            <div class="card mask-custom-1 my-5 h-25 text-white">
+                                <div class="card-body" id="cardbody">
+                                <h5 class="mb-4 text-dark" data-mdb-toggle="animation" data-mdb-animation-start="onLoad"
+                                    data-mdb-animation="slide-in-left" data-mdb-animation-duration="1000"
+                                    data-mdb-animation-delay="300">
+                                    Communication</h5>
+                                <ul class="list-unstyled mb-0" data-mdb-toggle="animation" data-mdb-animation-start="onLoad"
+                                    data-mdb-animation="slide-in-left" data-mdb-animation-duration="1000"
+                                    data-mdb-animation-delay="500">
+                                    <a href="#!" class="px-1">
+                                    <i class="fab fa-facebook-f text-white"></i>
+                                    </a>
+                                    <a href="#!" class="px-1">
+                                    <i class="fab fa-twitter text-white"></i>
+                                    </a>
+                                    <a href="#!" class="px-1">
+                                    <i class="fab fa-linkedin-in text-white"></i>
+                                    </a>
+                                </ul>
+                                </div>
+                            </div>
+                            </div>
+                            <div class="col-md-4 mb-0">
+                            <div class="card mask-custom-1 my-5 h-25 text-white">
+                                <div class="card-body">
+                                <h5 class="mb-4 text-dark" data-mdb-toggle="animation" data-mdb-animation-start="onLoad"
+                                    data-mdb-animation="slide-in-left" data-mdb-animation-duration="1000"
+                                    data-mdb-animation-delay="300">
+                                    Creative</h5>
+                                <ul class="list-unstyled mb-0" data-mdb-toggle="animation" data-mdb-animation-start="onLoad"
+                                    data-mdb-animation="slide-in-left" data-mdb-animation-duration="1000"
+                                    data-mdb-animation-delay="500">
+                                    <a href="#!" class="px-1">
+                                    <i class="fab fa-dribbble text-white"></i>
+                                    </a>
+                                    <a href="#!" class="px-1">
+                                    <i class="fab fa-linkedin-in text-white"></i>
+                                    </a>
+                                    <a href="#!" class="px-1">
+                                    <i class="fab fa-instagram text-white"></i>
+                                    </a>
+                                </ul>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+
+            <v-divider></v-divider>
+
       <h1 class="text-center mt-16 pt-5 my-5 py-5" id="projects">Projects</h1>
       <v-col cols="12" class="imgHover">
         <v-row class="fill-height" align="center" justify="center">
@@ -135,7 +303,7 @@
       </v-col>
       <v-col cols="12" sm="12">
         <div class="d-flex justify-center mb-6">
-          <v-btn color="blue" class="mt-4">Load More</v-btn>
+          <v-btn id="runaway-btn" color="blue" class="mt-4">Load More</v-btn>
         </div>
       </v-col>
       <v-col cols="12" id="page">
@@ -143,8 +311,8 @@
           <h2 class="text-center" id="testimonials">Testimonials</h2>
           <v-row>
             <v-col cols="12" sm="4">
-              <v-card class="mw-auto" max-width="344" height="">
-                <v-img src="" height="200px" cover></v-img>
+              <v-card data-aos="flip-right" class="mw-auto" max-width="344" height="">
+                <v-img src="https://i.postimg.cc/y88rnDSV/Philani-3.jpg" height="200px" cover></v-img>
                 <v-card-title>Philani Mxathule</v-card-title>
                 <v-card-subtitle>
                   IT Specialist
@@ -155,7 +323,7 @@
               </v-card>
             </v-col>
             <v-col cols="12" sm="4">
-              <v-card class="mw-auto" max-width="344" height="">
+              <v-card data-aos="zoom-out" class="mw-auto" max-width="344" height="">
                 <v-img src="" height="200px" cover></v-img>
                 <v-card-title>Lunga Booi</v-card-title>
                 <v-card-subtitle>
@@ -167,7 +335,7 @@
               </v-card>
             </v-col>
             <v-col cols="12" sm="4">
-              <v-card class="mw-auto" max-width="344" height="">
+              <v-card data-aos="flip-left" class="mw-auto" max-width="344" height="">
                 <v-img src="https://i.postimg.cc/ZRCcqP57/undecided-removebg-preview.png" height="200px" cover></v-img>
                 <v-card-title>Liam Engel</v-card-title>
                 <v-card-subtitle>
@@ -237,6 +405,7 @@
 
 <script>
 import { defineComponent } from 'vue';
+import AOS from "aos";
 
 // Components
 import NavBar from '../components/NavBar.vue';
@@ -244,6 +413,15 @@ import FooterView from '../components/FooterView.vue';
 
 export default defineComponent({
   name: 'HomeView',
+  components: {
+    NavBar,
+    FooterView
+  },
+  mounted() {
+        AOS.init({
+          duration: 3000
+        })
+    },
   setup() {
     return {
       slider2: 50,
@@ -269,19 +447,22 @@ items: [
   },
 ]
     }
-  },
-
-  components: {
-    NavBar,
-    FooterView
-},
+  }
 });
+
 </script>
 
 
 <style scoped>
+  
   .v-container{
     padding: 16px 0;
+  }
+  .v-divider{
+    box-shadow: 10px 10px  rgb(19, 19, 21);
+  }
+  .v-card{
+    
   }
   .head{
     position: relative;
@@ -316,7 +497,7 @@ items: [
   }
   .egg{
     display: block;
-    margin-left: 100px;
+    margin-left: 50px;
     margin-top: 50px;
     width: 356px;
     height: 300px;
@@ -354,4 +535,5 @@ items: [
     padding: 0 200px;
     background-color: #e9e9e9;
   }
+  
 </style>
