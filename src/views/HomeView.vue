@@ -9,7 +9,7 @@
               <h1 class="text-grey">Hello</h1>
               <h1 class="text-white">I'm Siliziwe Pani</h1>
               <span class="text-grey">Front-end Developer</span><br />
-              <v-btn tile dark class="text-light-blue mt-8" variant="outlined">Scroll down</v-btn>
+              <v-btn tile dark class="text-green mt-8" variant="outlined">Scroll down</v-btn>
             </div>
           </v-col>
           <v-col cols="2">
@@ -33,17 +33,17 @@
               </div>
             </v-col>
             <v-col cols="12" sm="6">
-              <div data-aos="flip-left">
-              <h3 class="mt-16" id="about">About me</h3>
-              <div style="width: 120px">
-                <v-slider v-model="slider2" color="black" label="track-color">
+              <div data-aos="flip-left" class="border border-md border-primary bg-black">
+              <h3 class="mt-16 text- text-center text-white" id="about">About me</h3>
+              <div style="width: 120px" class="text-center">
+                <v-slider v-model="slider2" color="lime" label="track-color">
                 </v-slider>
               </div>
-              <h4 class="mt-n4">I am a Creative Web Designer</h4>
-              <p class="text-grey">I am a person who values genuine expression and honesty over blindly following the crowd. I enjoy listening to music and spending some time alone. I hate a lot of things. I can charm dogs. I have no limitations. I never make the same mistake twice.</p>
+              <h4 class="mt-n4 text-lime">I am a Creative Web Designer</h4>
+              <p class="text-white">I am a person who values genuine expression and honesty over blindly following the crowd. I enjoy listening to music and spending some time alone. I hate a lot of things. I can charm dogs. I have no limitations. I never make the same mistake twice.</p>
             <br />
-              <p class="text-grey"> I make it five or six times, just to be sure. Being attractive is just not something I have any control over. I enjoy coding eventhough it's not something I've been doing for a long time.</p>
-              <v-btn tile dark color="light-blue" class="mt-4">
+              <p class="text-white"> I make it five or six times, just to be sure. Being attractive is just not something I have any control over. I enjoy coding eventhough it's not something I've been doing for a long time.</p>
+              <v-btn tile dark color="light-green" class="mt-4">
                 Download Resume
                  </v-btn>
                 </div>
@@ -51,32 +51,32 @@
           </v-row>
         </div>
       </v-col>
-      <div data-aos="zoom-out" class="row justify-content-center text-center">
+      <div data-aos="zoom-out" class="container ml-16 row justify-content-center text-center">
         <h3>Get to know me</h3>
       <div class="col-md-4 mb-4 mb-md-5">
-      <div class="card">
-    <h3 class="text-center fst-italic shadow-lg bg-light">Hobbies</h3>
-      <p class="text-center">I like playing soccer and playing mobile games. I also like spend most my time listening music. I also like drawing and also making animations using programs like FlipaClip and Stick Nodes.</p>
+      <div class="card mask-custom-2 bg-black">
+    <h3 class="text-center text-black fst-italic shadow-lg bg-light">Hobbies</h3>
+      <p class="text-center">I like playing soccer and playing mobile games. I also like spend most my time listening music. I also like drawing and also making animations using programs like FlipaClip and Stick Nodes.</p><br>
     </div>
   </div>
   <div class="col-md-4 mb-4 mb-md-0">
-    <div class="card mask-custom-2">
-    <h3 class="text-center fst-italic shadow-lg bg-light">Music</h3>
-      <p>I listen to Hip Hop and R&B but mostly Hip Hop. I like mostly rap music and I listen to Eminem mostly. I also like J Cole, Lil Wayne, Cordae, Joyner Lucas, Jack Halow, Royce and King Von.</p>
+    <div class="card mask-custom-2 bg-black">
+    <h3 class="text-center text-black fst-italic shadow-lg bg-light">Music</h3>
+      <p class="">I listen to Hip Hop and R&B but mostly Hip Hop. I like mostly rap music and I listen to Eminem mostly. I also like J Cole, Lil Wayne, Cordae, Joyner Lucas, Jack Halow, Royce and King Von.</p> <br>
     </div>
   </div>
   <div class="col-md-4 mb-4 mb-md-0">
-    <div class="card mask-custom-2">
-    <h3 class="text-center fst-italic shadow-lg bg-light">Favourite Quotes</h3>
-      <p>
+    <div class="card mask-custom-2 bg-black">
+    <h3 class="text-center text-black fst-italic shadow-lg bg-light">Favourite Quotes</h3>
+      <p class="mb-1">
       <ul><li>"Maintain your status as a man of words while retaining a flexible approach to your actions".</li>
-      <li>"Every guy is already a king; it’s simply a matter of finding out the nature of your kingdom.".</li>
+      <li>"Every guy is already a king; it’s simply a matter of finding out the nature of your kingdom.".</li><br>
       </ul>
       </p>
     </div>
   </div>
 </div>
-      <div  data-aos="fade-up"
+      <div data-aos="fade-up"
      data-aos-anchor-placement="center-bottom" class="text-center mt-4">
         <h2>What I do</h2>
         <div style="width:120px; margin: 0 auto">
@@ -89,14 +89,14 @@
           <v-row>
             <v-col cols="12">
               <div class="child">
-                <v-btn icon="fas fa-laptop" color="blue" class="text-white"></v-btn>
+                <v-btn icon="fas fa-laptop" color="green" class="text-white"></v-btn>
                 <h3 class="ml-3 mt-4">Web Design</h3>
                 <p class="text-grey ml-3 mt-4 text-caption">
                   Lorem ipsum dolor sit amet <br /> consectetur, adipisicing <br /> elit. Blanditiis fugit deleniti officiis
                 </p>
               </div>
               <div class="child">
-                <v-btn icon="fas fa-mobile-alt" color="blue" class="text-white"></v-btn>
+                <v-btn icon="fas fa-mobile-alt" color="green" class="text-white"></v-btn>
                 <h3 class="ml-3 mt-4">App Design</h3>
                 <p class="text-grey ml-3 mt-4 text-caption">
                   Lorem ipsum dolor sit amet <br /> consectetur, adipisicing <br /> elit. Blanditiis fugit deleniti officiis
@@ -113,92 +113,92 @@
           </v-row>
         </div>
       </v-col>
-      <v-col cols="12" sm="12" id="services">
+      <!-- <v-col cols="12" sm="12" id="services">
         <div class="d-flex justify-center mb-6">
           <v-btn color="blue" class="mr-2">All</v-btn>
           <v-btn class="mr-2" variant="tonal">Web Design</v-btn>
-          <!-- <v-btn class="mr-2" variant="tonal">Fron Design</v-btn>
-          <v-btn class="mr-2" variant="tonal">Photography</v-btn> -->
+          <v-btn class="mr-2" variant="tonal">Fron Design</v-btn>
+          <v-btn class="mr-2" variant="tonal">Photography</v-btn>
           <v-btn variant="tonal">Illustration</v-btn>
         </div>
-      </v-col>
+      </v-col> -->
       <v-divider></v-divider>
 
-      <div data-aos="flip-up">
-            <h1 class="text-dark text-center fst-italic shadow-lg bg-light w-100" id="h1">Technical Skills</h1>
+      <div data-aos="flip-up" class="container bg-dark">
+            <h1 class="text-dark text-center mt-16 my-5 fst-italic shadow-lg bg-green w-100" id="h1">Technical Skills</h1>
             <div class="row">
-                <div class="col-md-4 text-dark">
+                <div class="col-md-4 text-white">
                     <p class="text">Html</p>
                     <div class="progress">
-                        <div class="progress-bar bg-black" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:100%">
+                        <div class="progress-bar bg-lime" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:100%">
                             <span class="sr-only">100% Complete</span>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 text-dark">
+                <div class="col-md-4 text-white">
                     <p class="text">CSS</p>
                     <div class="progress">
-                        <div class="progress-bar bg-black" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:98%">
+                        <div class="progress-bar bg-lime" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:98%">
                             <span class="sr-only">98% Complete</span>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 text-dark">
+                <div class="col-md-4 text-white">
                     <p class="text">Bootstrap</p>
                     <div class="progress">
-                        <div class="progress-bar bg-black" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:92%">
+                        <div class="progress-bar bg-lime" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:92%">
                             <span class="sr-only">92% Complete</span>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-4 text-dark">
+                <div class="col-md-4 text-white">
                     <p class="text">SQL</p>
                     <div class="progress">
-                        <div class="progress-bar bg-black" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:90%">
+                        <div class="progress-bar bg-lime" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:90%">
                             <span class="sr-only">90% Complete</span>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 text-dark">
+                <div class="col-md-4 text-white">
                     <p class="text">Vue js</p>
                     <div class="progress">
-                        <div class="progress-bar bg-black" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:20%">
+                        <div class="progress-bar bg-lime" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:20%">
                             <span class="sr-only">20% Complete</span>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 text-dark">
+                <div class="col-md-4 text-white">
                     <p class="text">Javascript</p>
                     <div class="progress">
-                        <div class="progress-bar bg-black" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:60%">
+                        <div class="progress-bar bg-lime" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:60%">
                             <span class="sr-only">60% Complete</span>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-4 text-dark">
+                <div class="col-md-4 text-white">
                     <p class="text">Nodejs</p>
                     <div class="progress">
-                        <div class="progress-bar bg-black" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:0%">
+                        <div class="progress-bar bg-lime" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:0%">
                             <span class="sr-only">0% Complete</span>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 text-dark">
+                <div class="col-md-4 text-white">
                     <p class="text">React js</p>
                     <div class="progress">
-                        <div class="progress-bar bg-black" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:0%">
+                        <div class="progress-bar bg-lime" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:0%">
                             <span class="sr-only">0% Complete</span>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 text-dark">
+                <div class="col-md-4 text-white">
                     <p class="text">Python</p>
                     <div class="progress">
-                        <div class="progress-bar bg-black" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:0%">
+                        <div class="progress-bar bg-lime" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:0%">
                             <span class="sr-only">0% Complete</span>
                         </div>
                     </div>
@@ -310,7 +310,7 @@
 
 
 <div id="education">
-        <div class="container py-3 table-responsive-lg h-100" id="tcontainer">
+        <div class="container bg-dark py-3 table-responsive-lg h-100" id="tcontainer">
             <h3 class="text-center fst-italic shadow-lg p-3 mb-5 shadow-sm text-dark bg-light" id="h1">Education</h3>
             <div class="mask d-flex align-items-center h-100">
                 <div class="container">
@@ -579,7 +579,7 @@ items: [
     height: 100%;
     width: 50%;
     background-color: black;
-    box-shadow: 10px 10px 10px rgb(19, 19, 21);
+    box-shadow: 10px 10px 10px rgb(21, 236, 71);
     transform: skew(0deg, 6deg);
   }
   .head::after{
@@ -590,7 +590,7 @@ items: [
     height: 100%;
     width: 50%;
     background-color: black;
-    box-shadow: 10px 10px 10px rgb(19, 19, 21);
+    box-shadow: 10px 10px 10px rgb(21, 236, 71);
     transform: skew(0deg, -6deg);
   }
   .egg{
@@ -599,8 +599,8 @@ items: [
     margin-top: 50px;
     width: 356px;
     height: 300px;
-    background-color: #393f49;
-    box-shadow: 10px 10px 10px rgb(19, 19, 21);
+    background-color: #000000;
+    box-shadow: 10px 10px 10px rgb(21, 236, 71);
     border-radius: 50% 50% 50% 50% / 60% 60% 40% 0%;;
   }
   .first{

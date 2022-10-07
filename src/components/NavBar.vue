@@ -4,7 +4,7 @@
             <v-icon color="light-blue" left class="mr-2">fas fa-signature</v-icon>Siliziwe
         </v-btn>
         <v-spacer></v-spacer>
-        <v-btn text @click="scroll('home')" class="text-light-blue">Home</v-btn>
+        <v-btn text @click="scroll('home')" class="text-light-green">Home</v-btn>
         <v-btn text @click="scroll('about')">About</v-btn>
         <v-btn text @click="scroll('skills')">Skills</v-btn>
         <v-btn text @click="scroll('projects')">Projects</v-btn>
