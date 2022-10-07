@@ -219,7 +219,7 @@
                                 <ul class="list-unstyled mb-0" data-mdb-toggle="animation" data-mdb-animation-start="onLoad"
                                     data-mdb-animation="slide-in-left" data-mdb-animation-duration="1000"
                                     data-mdb-animation-delay="500">
-                                    <a href="#!" class="px-1">
+                                    <!-- <a href="#!" class="px-1">
                                     <i class="fab fa-github text-white"></i>
                                     </a>
                                     <a href="#!" class="px-1">
@@ -227,7 +227,7 @@
                                     </a>
                                     <a href="#!" class="px-1">
                                     <i class="fab fa-linkedin-in text-white"></i>
-                                    </a>
+                                    </a> -->
                                 </ul>
                                 </div>
                             </div>
@@ -242,7 +242,7 @@
                                 <ul class="list-unstyled mb-0" data-mdb-toggle="animation" data-mdb-animation-start="onLoad"
                                     data-mdb-animation="slide-in-left" data-mdb-animation-duration="1000"
                                     data-mdb-animation-delay="500">
-                                    <a href="#!" class="px-1">
+                                    <!-- <a href="#!" class="px-1">
                                     <i class="fab fa-facebook-f text-white"></i>
                                     </a>
                                     <a href="#!" class="px-1">
@@ -250,7 +250,7 @@
                                     </a>
                                     <a href="#!" class="px-1">
                                     <i class="fab fa-linkedin-in text-white"></i>
-                                    </a>
+                                    </a> -->
                                 </ul>
                                 </div>
                             </div>
@@ -265,7 +265,7 @@
                                 <ul class="list-unstyled mb-0" data-mdb-toggle="animation" data-mdb-animation-start="onLoad"
                                     data-mdb-animation="slide-in-left" data-mdb-animation-duration="1000"
                                     data-mdb-animation-delay="500">
-                                    <a href="#!" class="px-1">
+                                    <!-- <a href="#!" class="px-1">
                                     <i class="fab fa-dribbble text-white"></i>
                                     </a>
                                     <a href="#!" class="px-1">
@@ -273,7 +273,7 @@
                                     </a>
                                     <a href="#!" class="px-1">
                                     <i class="fab fa-instagram text-white"></i>
-                                    </a>
+                                    </a> -->
                                 </ul>
                                 </div>
                             </div>
@@ -474,11 +474,11 @@
           </v-row>
         </div>
       </v-col> -->
-
+      <div class="container bg-black border border-lg border-success">
       <h3 class="text-underline text-center mt-16" id="contact">Contact me</h3>
       <div class="row mt-16">
             <div class="col px-5">
-        <h6 class="text-dark">Cape Town, Western Cape <br>
+        <h6 class="text-white">Cape Town, Western Cape <br>
         South Africa</h6>
             </div>
             <div class="col">
@@ -492,6 +492,7 @@
                 </form>
             </div>
             </div>
+      </div>
     </v-container> 
     <FooterView />
   </v-app>
@@ -548,6 +549,11 @@ items: [
 
 
 <style scoped>
+  
+.placeholder{
+  color: aqua;
+}
+
   
   .v-container{
     padding: 16px 0;
@@ -623,7 +629,7 @@ items: [
     width: 100%;
     /* height: 300px; */
     text-align: center;
-    /* padding: 0 200px; */
+    padding: 0 200px;
     background-color: #f5f5f5;
   }
   .hire{
