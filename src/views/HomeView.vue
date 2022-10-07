@@ -623,7 +623,7 @@ items: [
     width: 100%;
     /* height: 300px; */
     text-align: center;
-    padding: 0 200px;
+    /* padding: 0 200px; */
     background-color: #f5f5f5;
   }
   .hire{
