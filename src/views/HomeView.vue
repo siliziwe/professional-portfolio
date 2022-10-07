@@ -306,13 +306,123 @@
           <v-btn id="runaway-btn" color="blue" class="mt-4">Load More</v-btn>
         </div>
       </v-col>
+
+
+
+<div id="education">
+        <div class="container py-3 table-responsive-lg h-100" id="tcontainer">
+            <h3 class="text-center fst-italic shadow-lg p-3 mb-5 shadow-sm text-dark bg-light" id="h1">Education</h3>
+            <div class="mask d-flex align-items-center h-100">
+                <div class="container">
+                <div class="row justify-content-center text-center">
+                    <div class="col-md-4 mb-4 mb-md-0">
+                    <div class="card mask-custom-1 text-white">
+                        <div class="card-body" id="card">
+                        <img class="rounded-circle shadow-2-strong mb-5"
+                            src="https://i.postimg.cc/3xYNhSwr/20.jpg" height="65" alt="avatar" style="width: 100px;"
+                            data-mdb-toggle="animation" data-mdb-animation-start="onLoad" data-mdb-animation="slide-in-left"
+                            data-mdb-animation-duration="1000" data-mdb-animation-delay="200">
+                        <h5 class="mb-4 text-primary" data-mdb-toggle="animation" data-mdb-animation-start="onLoad"
+                            data-mdb-animation="slide-in-left" data-mdb-animation-duration="1000"
+                            data-mdb-animation-delay="300">
+                            Battswood Primary School</h5>
+                        <p class="mb-4 text-bg-dark" data-mdb-toggle="animation" data-mdb-animation-start="onLoad"
+                            data-mdb-animation="slide-in-left" data-mdb-animation-duration="1000"
+                            data-mdb-animation-delay="400">
+                            2010-2016</p>
+                        <ul class="list-unstyled mb-0" data-mdb-toggle="animation" data-mdb-animation-start="onLoad"
+                            data-mdb-animation="slide-in-left" data-mdb-animation-duration="1000"
+                            data-mdb-animation-delay="500">
+                            <a href="#!" class="px-1">
+                            <i class="fab fa-github text-white"></i>
+                            </a>
+                            <a href="#!" class="px-1">
+                            <i class="fab fa-twitter text-white"></i>
+                            </a>
+                            <a href="#!" class="px-1">
+                            <i class="fab fa-linkedin-in text-white"></i>
+                            </a>
+                        </ul>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="col-md-4 mb-4 mb-md-0">
+                    <div class="card mask-custom-1 text-white">
+                        <div class="card-body">
+                        <img class="rounded-circle shadow-2-strong mb-5"
+                            src="https://i.postimg.cc/SQ9xMF2N/IMG-20180420-WA0043.jpg" height="65" alt="avatar" style="width: 100px;"
+                            data-mdb-toggle="animation" data-mdb-animation-start="onLoad" data-mdb-animation="slide-in-left"
+                            data-mdb-animation-duration="1000" data-mdb-animation-delay="200">
+                        <h5 class="mb-4 text-primary" data-mdb-toggle="animation" data-mdb-animation-start="onLoad"
+                            data-mdb-animation="slide-in-left" data-mdb-animation-duration="1000"
+                            data-mdb-animation-delay="300">
+                            Sizimisele T.H.S</h5>
+                        <p class="mb-4 text-bg-dark" data-mdb-toggle="animation" data-mdb-animation-start="onLoad"
+                            data-mdb-animation="slide-in-left" data-mdb-animation-duration="1000"
+                            data-mdb-animation-delay="400">
+                            2017-2021</p>
+                        <ul class="list-unstyled mb-0" data-mdb-toggle="animation" data-mdb-animation-start="onLoad"
+                            data-mdb-animation="slide-in-left" data-mdb-animation-duration="1000"
+                            data-mdb-animation-delay="500">
+                            <a href="#!" class="px-1">
+                            <i class="fab fa-facebook-f text-white"></i>
+                            </a>
+                            <a href="#!" class="px-1">
+                            <i class="fab fa-twitter text-white"></i>
+                            </a>
+                            <a href="#!" class="px-1">
+                            <i class="fab fa-linkedin-in text-white"></i>
+                            </a>
+                        </ul>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="col-md-4 mb-0">
+                    <div class="card mask-custom-1 text-white">
+                        <div class="card-body" id="card">
+                        <img class="rounded-circle shadow-2-strong mb-5"
+                            src="https://i.postimg.cc/7YxrYpSR/Logo-Life-Choices.jpg" height="65" alt="avatar" style="width: 100px;"
+                            data-mdb-toggle="animation" data-mdb-animation-start="onLoad" data-mdb-animation="slide-in-left"
+                            data-mdb-animation-duration="1000" data-mdb-animation-delay="200">
+                        <h5 class="mb-4 text-primary" data-mdb-toggle="animation" data-mdb-animation-start="onLoad"
+                            data-mdb-animation="slide-in-left" data-mdb-animation-duration="1000"
+                            data-mdb-animation-delay="300">
+                            Life Choices Academy</h5>
+                        <p class="mb-4 text-bg-dark" data-mdb-toggle="animation" data-mdb-animation-start="onLoad"
+                            data-mdb-animation="slide-in-left" data-mdb-animation-duration="1000"
+                            data-mdb-animation-delay="400">
+                            2022-present</p>
+                        <ul class="list-unstyled mb-0" data-mdb-toggle="animation" data-mdb-animation-start="onLoad"
+                            data-mdb-animation="slide-in-left" data-mdb-animation-duration="1000"
+                            data-mdb-animation-delay="500">
+                            <a href="#!" class="px-1">
+                            <i class="fab fa-dribbble text-white"></i>
+                            </a>
+                            <a href="#!" class="px-1">
+                            <i class="fab fa-linkedin-in text-white"></i>
+                            </a>
+                            <a href="#!" class="px-1">
+                            <i class="fab fa-instagram text-white"></i>
+                            </a>
+                        </ul>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
       <v-col cols="12" id="page">
         <div class="pre">
           <h2 class="text-center" id="testimonials">Testimonials</h2>
           <v-row>
             <v-col cols="12" sm="4">
               <v-card data-aos="flip-right" class="mw-auto" max-width="344" height="">
-                <v-img src="https://i.postimg.cc/y88rnDSV/Philani-3.jpg" height="200px" cover></v-img>
+                <v-img src="https://i.postimg.cc/FHF1cBfp/Philani-3.jpg" height="200px" cover></v-img>
                 <v-card-title>Philani Mxathule</v-card-title>
                 <v-card-subtitle>
                   IT Specialist
@@ -323,14 +433,14 @@
               </v-card>
             </v-col>
             <v-col cols="12" sm="4">
-              <v-card data-aos="zoom-out" class="mw-auto" max-width="344" height="">
+              <v-card data-aos="zoom-in" class="mw-auto" max-width="344" height="">
                 <v-img src="https://i.postimg.cc/6QQ41X9J/joel2.jpg" height="200px" cover></v-img>
                 <v-card-title>Joel Mukanya</v-card-title>
                 <v-card-subtitle>
                   IT Specialist
                 </v-card-subtitle>
                 <v-card-text>
-                  Siliziwe seems to show a lot of promise as a student. I enjoy seeing him work hard on his classwork.
+                  He seems to show lot of promise as a student. I enjoy seeing him work hard on his work.
                 </v-card-text>
               </v-card>
             </v-col>
@@ -349,7 +459,7 @@
           </v-row>
         </div>
       </v-col>
-      <v-col cols="12" id="blog">
+      <!-- <v-col cols="12" id="blog">
         <div class="hire">
           <v-row>
             <v-col cols="12" sm="8">
@@ -363,41 +473,25 @@
             </v-col>
           </v-row>
         </div>
-      </v-col>
-      <v-col cols="12" sm="12" class="px-16" id="contact">
-        <v-row>
-          <v-col cols="12" sm="4">
-        <div class="child">
-          <h1>Contact info.</h1>
-          <v-btn icon="fas fa-map-marker" class="mt-10"  variant="outlined"></v-btn><br />
-          <span class="text-caption">Cape Town, South Africa</span> <br />
-          <v-btn ico="fas fa-phone-alt" class="mt-10" variant="outlined"></v-btn><br />
-          <span class="text-caption">0732317742</span><br />
-          <span class="text-caption">0732317742</span><br />
-          <v-btn ico="fas fa-envelope" class="mt-10" variant="outlined"></v-btn><br />
-          <span class="text-caption">slipani16@gmail.com</span><br />
-          <span class="text-caption">siliziwepani@gmail.com</span><br />
-        </div>
-      </v-col>
-      <v-col cols="12" sm="8">
-        <h1 class="mt-8">Send your message</h1>
-        <v-divider></v-divider>
-        <span class="text-caption">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus animi cumque inventore, eius corrupti, nesciunt ducimus sequi in molestias odit doloremque voluptatibus. Nesciunt, quos voluptatibus ullam aliquid illo doloribus totam.
-        </span>
-        <v-row class="mt-10">
-          <v-col cols="12" sm="6">
-            <v-text-field label="Name" persistent-hint variant="outlined"></v-text-field>
-          </v-col>
-          <v-col cols="12" sm="6">
-            <v-text-field label="Phone No" persistent-hint variant="outlined"></v-text-field>
-          </v-col>
-        </v-row>
-        <v-textarea label="Message" persistent-hint variant="outlined"></v-textarea>
-        <v-btn color="blue" class="mt-2">Submit Now</v-btn>
-      </v-col>
-      </v-row>
-      </v-col>
+      </v-col> -->
+
+      <h3 class="text-underline text-center mt-16" id="contact">Contact me</h3>
+      <div class="row mt-16">
+            <div class="col px-5">
+        <h6 class="text-dark">Cape Town, Western Cape <br>
+        South Africa</h6>
+            </div>
+            <div class="col">
+                <form action="https://formspree.io/f/mpzbklkp" method="POST">
+                    <div class="grid md:grid-cols-2 gap-5 md:gap-7">
+                        <input name="name" placeholder="Name here" style="outline-none" class="text-[13px] border-b-[1px] outline-none w-full border-b-neutral-200">
+                        <input name="email" placeholder="Email here" style="outline-none" class="text-[13px] border-b-[1px] outline-none w-full border-b-neutral-200">
+                    </div>
+                    <div><h4>Message</h4><textarea name="message" rows="4" placeholder="Message here" class="text-[13px] border-b-[1px] outline-none w-50 border-b-neutral-200"></textarea></div>
+                    <button type="submit" class="btn btn-primary bg-success">Send message</button>
+                </form>
+            </div>
+            </div>
     </v-container> 
     <FooterView />
   </v-app>
@@ -464,6 +558,10 @@ items: [
   .v-card{
     
   }
+  .form {
+    margin-bottom: 300px;
+}
+
   .head{
     position: relative;
     text-align: center; 
@@ -519,8 +617,7 @@ items: [
     margin-right: 8px;
   }
   .imgHover{
-    padding: 0 200px;
-    
+    /* padding: 0 200px; */
   }
   .pre{
     width: 100%;
@@ -535,5 +632,5 @@ items: [
     padding: 0 200px;
     background-color: #e9e9e9;
   }
-  
+
 </style>
