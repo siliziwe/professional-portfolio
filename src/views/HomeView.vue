@@ -9,7 +9,7 @@
               <h1 class="text-grey">Hello</h1>
               <h1 class="text-white">I'm Siliziwe Pani</h1>
               <span class="text-grey">Front-end Developer</span><br />
-              <v-btn tile dark class="text-green mt-8" variant="outlined">Scroll down</v-btn>
+              <v-btn tile dark class="text-green mt-8" variant="outlined">See More</v-btn>
             </div>
           </v-col>
           <v-col cols="2">
@@ -33,7 +33,7 @@
               </div>
             </v-col>
             <v-col cols="12" sm="6">
-              <div data-aos="flip-left" class="border border-md border-primary bg-black">
+              <div data-aos="flip-left" class="bg-black">
               <h3 class="mt-16 text- text-center text-white" id="about">About me</h3>
               <div style="width: 120px" class="text-center">
                 <v-slider v-model="slider2" color="lime" label="track-color">
@@ -55,19 +55,19 @@
         <h3>Get to know me</h3>
       <div class="col-md-4 mb-4 mb-md-5">
       <div class="card mask-custom-2 bg-black">
-    <h3 class="text-center text-black fst-italic shadow-lg bg-light">Hobbies</h3>
+    <h3 class="text-center text-green fst-italic shadow-lg bg-light">Hobbies</h3>
       <p class="text-center">I like playing soccer and playing mobile games. I also like spend most my time listening music. I also like drawing and also making animations using programs like FlipaClip and Stick Nodes.</p><br>
     </div>
   </div>
   <div class="col-md-4 mb-4 mb-md-0">
     <div class="card mask-custom-2 bg-black">
-    <h3 class="text-center text-black fst-italic shadow-lg bg-light">Music</h3>
+    <h3 class="text-center text-green fst-italic shadow-lg bg-light">Music</h3>
       <p class="">I listen to Hip Hop and R&B but mostly Hip Hop. I like mostly rap music and I listen to Eminem mostly. I also like J Cole, Lil Wayne, Cordae, Joyner Lucas, Jack Halow, Royce and King Von.</p> <br>
     </div>
   </div>
   <div class="col-md-4 mb-4 mb-md-0">
     <div class="card mask-custom-2 bg-black">
-    <h3 class="text-center text-black fst-italic shadow-lg bg-light">Favourite Quotes</h3>
+    <h3 class="text-center text-green fst-italic shadow-lg bg-light">Favourite Quotes</h3>
       <p class="mb-1">
       <ul><li>"Maintain your status as a man of words while retaining a flexible approach to your actions".</li>
       <li>"Every guy is already a king; it’s simply a matter of finding out the nature of your kingdom.".</li><br>
@@ -125,7 +125,7 @@
       <v-divider></v-divider>
 
       <div data-aos="flip-up" class="container bg-dark">
-            <h1 class="text-dark text-center mt-16 my-5 fst-italic shadow-lg bg-green w-100" id="h1">Technical Skills</h1>
+            <h1 class="text-white text-center mt-16 my-5 fst-italic shadow-lg bg-green w-100" id="h1">Technical Skills</h1>
             <div class="row">
                 <div class="col-md-4 text-white">
                     <p class="text">Html</p>
@@ -205,7 +205,7 @@
                 </div>
                 <br><br>
                 <div class="my-5">
-                    <h1 class="text-center text-dark fst-italic shadow-lg bg-light" id="h1"><span>Soft</span> <span>Skills</span></h1>
+                    <h1 class="text-center text-white fst-italic shadow-lg bg-green" id="h1"><span>Soft</span> <span>Skills</span></h1>
                     <div class="mask d-flex align-items-center h-100">
                         <div class="container" id="con">
                         <div class="row justify-content-center text-center">
@@ -276,6 +276,77 @@
                                     </a> -->
                                 </ul>
                                 </div>
+                            </div>
+                            </div>
+                            <div class="row justify-content-center text-center">
+                            <div class="col-md-4 mb-4 mb-md-0">
+                            <div class="card mask-custom-1 my-5 h-25 text-white">
+                                <div class="card-body mb-2">
+                                <h5 class="mb-1 text-dark" data-mdb-toggle="animation" data-mdb-animation-start="onLoad"
+                                    data-mdb-animation="slide-in-left" data-mdb-animation-duration="1000"
+                                    data-mdb-animation-delay="300">
+                                    Open-minded</h5>
+                                <ul class="list-unstyled mb-0" data-mdb-toggle="animation" data-mdb-animation-start="onLoad"
+                                    data-mdb-animation="slide-in-left" data-mdb-animation-duration="1000"
+                                    data-mdb-animation-delay="500">
+                                    <!-- <a href="#!" class="px-1">
+                                    <i class="fab fa-github text-white"></i>
+                                    </a>
+                                    <a href="#!" class="px-1">
+                                    <i class="fab fa-twitter text-white"></i>
+                                    </a>
+                                    <a href="#!" class="px-1">
+                                    <i class="fab fa-linkedin-in text-white"></i>
+                                    </a> -->
+                                </ul>
+                                </div>
+                            </div>
+                            </div>
+                            <div class="col-md-4 mb-4 mb-md-0">
+                            <div class="card mask-custom-1 my-5 h-25 text-white">
+                                <div class="card-body mb-2">
+                                <h5 class="mb-1 text-dark" data-mdb-toggle="animation" data-mdb-animation-start="onLoad"
+                                    data-mdb-animation="slide-in-left" data-mdb-animation-duration="1000"
+                                    data-mdb-animation-delay="300">
+                                    Designer</h5>
+                                <ul class="list-unstyled mb-0" data-mdb-toggle="animation" data-mdb-animation-start="onLoad"
+                                    data-mdb-animation="slide-in-left" data-mdb-animation-duration="1000"
+                                    data-mdb-animation-delay="500">
+                                    <!-- <a href="#!" class="px-1">
+                                    <i class="fab fa-github text-white"></i>
+                                    </a>
+                                    <a href="#!" class="px-1">
+                                    <i class="fab fa-twitter text-white"></i>
+                                    </a>
+                                    <a href="#!" class="px-1">
+                                    <i class="fab fa-linkedin-in text-white"></i>
+                                    </a> -->
+                                </ul>
+                                </div>
+                            </div>
+                            </div>
+                            <div class="col-md-4 mb-4 mb-md-0">
+                            <div class="card mask-custom-1 my-5 h-25 text-white">
+                                <div class="card-body mb-2">
+                                <h5 class="mb-1 text-dark" data-mdb-toggle="animation" data-mdb-animation-start="onLoad"
+                                    data-mdb-animation="slide-in-left" data-mdb-animation-duration="1000"
+                                    data-mdb-animation-delay="300">
+                                    Dark Humour</h5>
+                                <ul class="list-unstyled mb-0" data-mdb-toggle="animation" data-mdb-animation-start="onLoad"
+                                    data-mdb-animation="slide-in-left" data-mdb-animation-duration="1000"
+                                    data-mdb-animation-delay="500">
+                                    <!-- <a href="#!" class="px-1">
+                                    <i class="fab fa-github text-white"></i>
+                                    </a>
+                                    <a href="#!" class="px-1">
+                                    <i class="fab fa-twitter text-white"></i>
+                                    </a>
+                                    <a href="#!" class="px-1">
+                                    <i class="fab fa-linkedin-in text-white"></i>
+                                    </a> -->
+                                </ul>
+                                </div>
+                            </div>
                             </div>
                             </div>
                         </div>
