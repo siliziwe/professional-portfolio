@@ -359,7 +359,7 @@
             <v-divider></v-divider>
 
       <h1 class="text-center mt-16 pt-5 my-5 py-5" id="projects">Projects</h1>
-      <v-col cols="12" class="imgHover">
+      <v-col data-aos="flip-down" cols="12" class="imgHover">
         <v-row class="fill-height" align="center" justify="center">
           <template v-for="(item, i) in items" :key="i">
             <v-col cols="12" md="4">
@@ -375,14 +375,14 @@
       </v-col>
       <v-col cols="12" sm="12">
         <div class="d-flex justify-center mb-6">
-          <v-btn id="runaway-btn" color="blue" class="mt-4">Load More</v-btn>
+          <v-btn id="runaway-btn" color="green" class="mt-4">Load More</v-btn>
         </div>
       </v-col>
 
 
 
 <div id="education">
-        <div class="container bg-dark py-3 table-responsive-lg h-100" id="tcontainer">
+        <div data-aos="zoom-in" class="container bg-dark py-3 table-responsive-lg h-100" id="tcontainer">
             <h3 class="text-center fst-italic shadow-lg p-3 mb-5 shadow-sm text-dark bg-light" id="h1">Education</h3>
             <div class="mask d-flex align-items-center h-100">
                 <div class="container">
