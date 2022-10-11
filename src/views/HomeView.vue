@@ -8,7 +8,7 @@
             <div style="position: relative" class="mt-16">
               <h1 class="text-grey">Hello</h1>
               <h1 class="text-white">I'm Siliziwe Pani</h1>
-              <span class="text-grey">Front-end Developer</span><br />
+              <span class="text-grey">Web Developer</span><br />
               <v-btn tile dark class="text-green mt-8" variant="outlined">See More</v-btn>
             </div>
           </v-col>
@@ -125,7 +125,7 @@
       <v-divider></v-divider>
 
       <div data-aos="flip-up" class="container bg-dark">
-            <h1 class="text-white text-center mt-16 my-5 fst-italic shadow-lg bg-green w-100" id="h1">Technical Skills</h1>
+            <h1 class="text-white text-center mt-16 my-5 fst-italic shadow-lg bg-green w-100" id="skills">Technical Skills</h1>
             <div class="row">
                 <div class="col-md-4 text-white">
                     <p class="text">Html</p>
@@ -366,6 +366,7 @@
               <v-hover v-slot="{isHovering, props}">
                 <v-card :elevation="isHovering ? 12: 2" :class="{'on-hover' : isHovering}" v-bind="props">
                   <v-img :src="item.img" height="225px" cover></v-img>
+                  <v-link href="item.link"></v-link>
                 </v-card>
               </v-hover>
             </v-col>
@@ -595,21 +596,27 @@ export default defineComponent({
 items: [
   {
     img: "https://i.postimg.cc/j5MyyDLW/rainbow-removebg-preview.png",
+    link: "https://github.com/siliziwe/Rainbow",
   },
   {
     img: "https://i.postimg.cc/6547q20j/Screenshot-2022-07-21-131859.png",
+    link: "",
   },
   {
     img: "https://i.postimg.cc/d1W7kGpX/calculator-removebg-preview.png",
+    link: "",
   },
   {
     img: "https://i.postimg.cc/MTGHSvHY/Screenshot-2022-07-21-161528.png",
+    link: "",
   },
   {
     img: "https://i.postimg.cc/Gm1ppM9t/Screenshot-2022-07-21-161922.png",
+    link: "",
   },
   {
     img: "",
+    link: "",
   },
 ]
     }
