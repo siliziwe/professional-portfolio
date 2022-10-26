@@ -33,7 +33,7 @@
               </div>
             </v-col>
             <v-col cols="12" sm="6">
-              <div data-aos="flip-left" class="bg-black">
+              <div data-aos="flip-left" class="bg-black" id="aboutme">
               <h3 class="mt-16 text- text-center text-white" id="about">About me</h3>
               <div style="width: 120px" class="text-center">
                 <v-slider v-model="slider2" color="lime" label="track-color">
@@ -52,7 +52,7 @@
         </div>
       </v-col>
       <div data-aos="zoom-out" class="container ml-16 row justify-content-center text-center">
-        <h3>Get to know me</h3>
+        <h3 class="text-white">Get to know me</h3>
       <div class="col-md-4 mb-4 mb-md-5">
       <div class="card mask-custom-2 bg-black">
     <h3 class="text-center text-green fst-italic shadow-lg bg-light">Hobbies</h3>
@@ -78,7 +78,7 @@
 </div>
       <div data-aos="fade-up"
      data-aos-anchor-placement="center-bottom" class="text-center mt-4">
-        <h2>What I do</h2>
+        <h2 class="text-white">What I do</h2>
         <div style="width:120px; margin: 0 auto">
           <v-slider v-model="slider2" color="black" label="track-color"></v-slider>
         </div>
@@ -124,7 +124,7 @@
       </v-col> -->
       <v-divider></v-divider>
 
-      <div data-aos="flip-up" class="container bg-dark">
+      <div data-aos="flip-up" class="container bg-black">
             <h1 class="text-white text-center mt-16 my-5 fst-italic shadow-lg bg-green w-100" id="skills">Technical Skills</h1>
             <div class="row">
                 <div class="col-md-4 text-white">
@@ -365,8 +365,12 @@
             <v-col cols="12" md="4">
               <v-hover v-slot="{isHovering, props}">
                 <v-card :elevation="isHovering ? 12: 2" :class="{'on-hover' : isHovering}" v-bind="props">
+                <a :href="item.link" target="_blank">
+                  <v-btn
+                  color="lime" 
+                  @click.stop="myAction">Go to</v-btn>
+                </a>
                   <v-img :src="item.img" height="225px" cover></v-img>
-                  <v-link href="item.link"></v-link>
                 </v-card>
               </v-hover>
             </v-col>
@@ -600,23 +604,23 @@ items: [
   },
   {
     img: "https://i.postimg.cc/6547q20j/Screenshot-2022-07-21-131859.png",
-    link: "",
+    link: "https://github.com/siliziwe/js-toDoList",
   },
   {
     img: "https://i.postimg.cc/d1W7kGpX/calculator-removebg-preview.png",
-    link: "",
+    link: "https://github.com/siliziwe/JSCalculator",
   },
   {
     img: "https://i.postimg.cc/MTGHSvHY/Screenshot-2022-07-21-161528.png",
-    link: "",
+    link: "https://github.com/siliziwe/BMI-Calculator",
   },
   {
     img: "https://i.postimg.cc/Gm1ppM9t/Screenshot-2022-07-21-161922.png",
-    link: "",
+    link: "https://github.com/siliziwe/Temperature-calculator-js",
   },
   {
-    img: "",
-    link: "",
+    img: "https://i.postimg.cc/DwPh9sjt/Screenshot-2022-10-26-094425.png",
+    link: "https://glistening-puffpuff-c6069a.netlify.app/#/",
   },
 ]
     }
@@ -632,6 +636,10 @@ items: [
   color: aqua;
 }
 
+
+#aboutme{
+  box-shadow: 10px 10px 5px rgb(21, 236, 71);
+}
   
   .v-container{
     padding: 16px 0;
@@ -639,8 +647,8 @@ items: [
   .v-divider{
     box-shadow: 10px 10px  rgb(19, 19, 21);
   }
-  .v-card{
-    
+  .card{
+    box-shadow: 10px 10px 5px rgb(21, 236, 71);
   }
   .form {
     margin-bottom: 300px;
